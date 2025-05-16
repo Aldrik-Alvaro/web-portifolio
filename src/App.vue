@@ -5,7 +5,7 @@
     <div class="relative w-16 h-16">
       <img
         class="rounded-full border border-gray-100 shadow-sm"
-        src="https://raw.githubusercontent.com/Aldrik-Alvaro/portifolio/refs/heads/main/videos%20e%20imagens/Captura%20de%20tela%202025-04-10%20212439.png"
+        src="/src/assets/1.png"
         alt="user image"
       />
     </div>
@@ -100,7 +100,7 @@
       <div class="w-8/12 flex justify-end">
         <img
           class="3xl:h-[800px] 2xl:h-[650px] xl:h-[550px] lg:h-[550px] md:h-[450px] sm:h-[350px]"
-          src="https://raw.githubusercontent.com/Aldrik-Alvaro/portifolio/refs/heads/main/videos%20e%20imagens/assets_task_01jv8wsbvtenr97wfhnmz51aeg_1747276644_img_0%20(1).png"
+          src="/src/assets/2.png"
           alt="user image"
         />
       </div>
@@ -109,11 +109,13 @@
 
   <div class="banner-2 space-y-10 pb-20" id="work">
     <h3 class="heading3 my-5">Projetos</h3>
-    <div class="card">
+    
+    
+    <!-- <div class="card">
       <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
         <h4 class="project-title item">Análise de Sentimento por Geolocalização</h4>
         <p class="font-work_sans pr-12">
-          Plataforma para subir dados de feedback e ele retornar os sentimentos junto com um painel analítico focado em geolozalização;
+          Plataforma para envio de dados de feedback, com retorno de sentimentos e um painel analítico focado em geolocalização.
         </p>
         <a href="https://github.com/Fluffy-Fatec/Projeto-Integrador-Imagem" target="_blank" rel="noopener noreferrer">
           <button class="text-sky-800 font-bold text-2xl tracking-wider">
@@ -124,36 +126,94 @@
       <div class="card-image bg-green-100">
         <img
           class="object-cover w-full h-72 md:h-96"
-          src="https://raw.githubusercontent.com/Aldrik-Alvaro/portifolio/refs/heads/main/videos%20e%20imagens/6%20Semestre/pandalyzefundo.jpg"
+          src="/src/assets/3.jpg"
+        />
+      </div>
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="card flex flex-col md:flex-row">
+      <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
+        <h4 class="project-title item">Análise de Sentimento por Geolocalização</h4>
+        <p class="font-work_sans pr-12">
+          Plataforma para envio de dados de feedback, com retorno de sentimentos e um painel analítico focado em geolocalização.
+        </p>
+        <a href="https://github.com/Fluffy-Fatec/Projeto-Integrador-Imagem" target="_blank" rel="noopener noreferrer">
+          <button class="text-sky-800 font-bold text-2xl tracking-wider">
+            Repositório do Projeto
+          </button>
+        </a>
+      </div>
+      <div class="card-image md:w-1/2">
+        <img
+          class="object-cover w-full h-64 md:h-full rounded-xl shadow-lg"
+          src="/src/assets/pandalyzeheader.jpg"
+          alt="Imagem do projeto Oracle Dinner"
         />
       </div>
     </div>
 
-    <div class="card">
+
+
+    <div class="card flex flex-col md:flex-row">
       <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
         <h4 class="project-title item">Oracle Dinner - Dashboard de Restaurante</h4>
         <p class="font-work_sans pr-12">
-          Realizar a ingestão de dados via CSV, tratar os dados, carregar em um data warehouse e exibir os dados em um painel analítico.
+          Plataforma para Realizar a ingestão de dados via CSV, tratá-los, carregá-los em um data warehouse e exibi-los em um painel analítico.
         </p>
         <a href="https://github.com/Aldrik-Alvaro/Projeto-Integrador-Oracle" target="_blank" rel="noopener noreferrer">
-        <button class="text-sky-800 font-bold text-2xl tracking-wider">
-          Repositorio do Projeto
-        </button>
+          <button class="text-sky-800 font-bold text-2xl tracking-wider">
+            Repositório do Projeto
+          </button>
         </a>
       </div>
-      <div class="card-image">
+      <div class="card-image md:w-1/2">
         <img
-          class="object-cover w-full h-48 md:h-96"
-          src="https://raw.githubusercontent.com/Aldrik-Alvaro/Projeto-Integrador-Oracle/main/Documentacao/Team/imgOracleFatec_1.jpg"
+          class="object-cover w-full h-64 md:h-full rounded-xl shadow-lg"
+          src="/src/assets/4.jpg"
+          alt="Imagem do projeto Oracle Dinner"
         />
       </div>
     </div>
 
-    <div class="card">
+    <div class="card flex flex-col md:flex-row">
+      <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
+        <h4 class="project-title item">Automatização e Visualização dos Dados</h4>
+        <p class="font-work_sans pr-12">
+          Plataforma para minerar dados meteorológicos abertos (GOV.br), tratá-los e exibi-los em um painel analítico.
+        </p>
+        <a href="https://github.com/fluffyfatec/Iacit" target="_blank" rel="noopener noreferrer">
+          <button class="text-sky-800 font-bold text-2xl tracking-wider">
+            Repositório do Projeto
+          </button>
+        </a>
+      </div>
+      <div class="card-image md:w-1/2">
+        <img
+          class="object-cover w-full h-64 md:h-full rounded-xl shadow-lg"
+          src="/src/assets/iacit.jpg"
+          alt="Imagem do projeto Oracle Dinner"
+        />
+      </div>
+    </div>
+
+
+    <!-- <div class="card">
       <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
         <h4 class="project-title">Automatização e Visualização dos Dados</h4>
         <p class="font-work_sans pr-12">
-          Realizar mineração de dados meteorológicos abertos (GOV.br), realizar tratamento e exibir os dados em um painel analítico.
+          Plataforma para minerar dados meteorológicos abertos (GOV.br), tratá-los e exibi-los em um painel analítico.
         </p>
         <a href="https://github.com/fluffyfatec/Iacit" target="_blank" rel="noopener noreferrer">
         <button class="text-sky-800 font-bold text-2xl tracking-wider">
@@ -164,10 +224,10 @@
       <div class="card-image bg-green-100">
         <img
           class="object-cover w-full h-72 md:h-96"
-          src="https://raw.githubusercontent.com/Aldrik-Alvaro/portifolio/main/videos%20e%20imagens/3%20Semestre/3.gif"
+          src="/src/assets/gif"
         />
       </div>
-    </div>
+    </div> -->
   </div>
 
   <!-- <div class="banner-1" id="testimonial">
@@ -269,7 +329,7 @@
   <div class="banner-2 md:flex items-center md:justify-evenly" id="about">
     <img
       class="md:h-[500px] h-[400px]"
-      src="https://raw.githubusercontent.com/Aldrik-Alvaro/portifolio/refs/heads/main/videos%20e%20imagens/assets_task_01jv8wsbvtenr97wfhnmz51aeg_1747276644_img_0%20(1).png"
+      src="/src/assets/2.png"
       alt="user image"
     />
     <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
